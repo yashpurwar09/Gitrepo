@@ -1,0 +1,21 @@
+git init
+git status
+git add *|<file_name>
+git commit -m "<message>"
+git show <id>
+git checkout <id>
+git checkout <branch_name>
+git log
+git log -S <function_name>
+git restore <file_name> 
+git restore --staged <file_name>
+git restore --worktree <file_name>
+git push
+git pull
+git merge <branch_name>
+git branch <new_branch>
+
+#commands to link remote repo with local git
+git remote add origin <remote_repo_link>
+git branch -M main
+git push -u origin
